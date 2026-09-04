@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="250" viewBox="0 0 1280 250" role="img" aria-label="Mikhail Sannikov — ML research, robotics">
+  <style>
+    .name  { font: 700 52px "Helvetica Neue", Helvetica, Arial, sans-serif; letter-spacing: 3.5px; fill: #E6EDF3; }
+    .role  { font: 500 15px "Helvetica Neue", Helvetica, Arial, sans-serif; letter-spacing: 4.2px; fill: #8B949E; }
+    .tag   { font: 400 17px "Helvetica Neue", Helvetica, Arial, sans-serif; fill: #ADBAC7; }
+    .mono  { font: 400 11px ui-monospace, "SF Mono", Menlo, Consolas, monospace; letter-spacing: .5px; fill: #6E7B8B; }
+    .link  { stroke: #ADBAC7; stroke-width: 2.4; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    .joint { fill: #0D1117; stroke: #ADBAC7; stroke-width: 2.2; }
+    .grip  { stroke: #46C7C7; stroke-width: 2.4; fill: none; stroke-linecap: round; }
+    .accf  { fill: #46C7C7; }
+    .rule  { stroke: #30363D; stroke-width: 1; }
+    .hatch { stroke: #58636F; stroke-width: 1.4; stroke-linecap: round; }
+  </style>
+
+  <text class="name" x="64" y="104">MIKHAIL SANNIKOV</text>
+  <text class="role" x="67" y="134">ML RESEARCH · ROBOTICS</text>
+  <text class="tag"  x="66" y="180">Robot software that ships as one file.</text>
+
+  <g transform="translate(0,8)">
+    <!-- ground -->
+    <line class="rule" x1="850" y1="192" x2="960" y2="192"/>
+    <g class="hatch">
+      <line x1="856" y1="192" x2="848" y2="202"/>
+      <line x1="876" y1="192" x2="868" y2="202"/>
+      <line x1="896" y1="192" x2="888" y2="202"/>
+      <line x1="916" y1="192" x2="908" y2="202"/>
+      <line x1="936" y1="192" x2="928" y2="202"/>
+      <line x1="954" y1="192" x2="946" y2="202"/>
+    </g>
+
+    <!-- links -->
+    <polyline class="link" points="900,192 900,146 972,110 1044,136 1100,100"/>
+
+    <!-- joints -->
+    <circle class="joint" cx="900" cy="192" r="7"/>
+    <circle class="joint" cx="900" cy="146" r="6"/>
+    <circle class="joint" cx="972" cy="110" r="6"/>
+    <circle class="joint" cx="1044" cy="136" r="6"/>
+
+    <!-- gripper: palm perpendicular to the last link, two jaws along it -->
+    <g class="grip">
+      <line x1="1095.1" y1="92.4"  x2="1104.9" y2="107.6"/>
+      <line x1="1095.1" y1="92.4"  x2="1106.9" y2="84.8"/>
+      <line x1="1104.9" y1="107.6" x2="1116.7" y2="100.0"/>
+    </g>
+    <circle class="accf" cx="1100" cy="100" r="3.2"/>
+
+    <!-- labels, each clear of every link and joint -->
+    <text class="mono" x="886"  y="150" text-anchor="end">q1</text>
+    <text class="mono" x="972"  y="96"  text-anchor="middle">q2</text>
+    <text class="mono" x="1044" y="162" text-anchor="middle">q3</text>
+    <text class="mono" x="1128" y="98"  text-anchor="start">ee</text>
+  </g>
+
+  <line class="rule" x1="64" y1="220" x2="1216" y2="220"/>
+</svg>
