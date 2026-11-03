@@ -17,7 +17,7 @@ I build robot learning systems end to end: the rig, the data, the policy, and th
 
 ---
 
-### Shipped
+### Projects
 
 **[Caliper](https://github.com/msannikov03/caliper)** — one deterministic Rust core for serial-arm robotics,
 published as **17 crates** and exposed through three faces that share the exact same code:
@@ -29,16 +29,15 @@ and notarized dmg with the physics inside — no ROS workspace, no GPU, no cloud
 
 &nbsp;&nbsp;&nbsp;&nbsp;`crates.io` · `Apache-2.0` · [docs](https://msannikov03.github.io/caliper/) · `cargo install caliper-cli` · `pip install caliper-robotics`
 
-**[Wisp](https://sannikov.club/wisp)** — a macOS menu-bar app that puts your iPhone anywhere on Earth.
-Vector-tile basemap with no API key and no rate limit. Every build goes out through a Sparkle feed
-Apple-notarized *and* EdDSA-signed, so only genuine builds install.
+**Ratchet** (private, with Ilya Mikhalchuk) — a self-improving agent harness for robots: an LLM planner and perception over a growing
+library of tested skills, with failures turned into new ones. Tested on the LIBERO-PRO and RoboDojo benchmarks; real SO-101 arms are next.
 
-**[Daily Manifesto](https://apps.apple.com/us/app/daily-manifesto/id6799500382)** — iOS, live on the App Store. A return engine rather than
-a to-do list: timed drops, a widget that changes state through the day, on-this-day
-resurfacing, and a 45-day cycle that decides what comes back next.
+**[physprobe](https://github.com/msannikov03/physprobe)** — do frozen video models see hidden object physics? Linear probes on V-JEPA 2, DINOv2 and the
+Cosmos tokenizer over MuJoCo push clips. V-JEPA 2 recovers mass and friction almost perfectly; the Cosmos tokenizer does noticeably worse, especially on friction.
 
-**[Lectrum](https://apps.apple.com/us/app/lectrum/id6803515077)** — iOS, live on the App Store. SwiftUI + SwiftData capture that ranks
-ideas by importance and resurfaces them, synced through CloudKit.
+**[printfarm-sim](https://github.com/msannikov03/printfarm-sim)** — a MuJoCo simulation of a robot-tended 3D-print farm: doors, grasping, raking, bed-to-box packing, fleet model.
+
+**[semantic_pf_loc](https://github.com/msannikov03/semantic_pf_loc)** — camera localization inside a 3D Gaussian Splatting map: particle filter plus differentiable rendering.
 
 ---
 
@@ -46,9 +45,9 @@ ideas by importance and resurfaces them, synced through CloudKit.
 
 Robot learning for contact-rich manipulation: world-action models, VLA policies, tactile-conditioned
 training, and getting the deploy path to behave like the training path.
-B.S. Mechanical Engineering (Robotics & Mechatronics), Virginia Tech, summa cum laude.
+B.S. Mechanical Engineering, major in Robotics & Mechatronics, Virginia Tech, summa cum laude.
 Open to robot learning and robotics engineering roles.
 
 ---
 
-**[sannikov.club](https://sannikov.club)** · [LinkedIn](https://linkedin.com/in/mikhailsannikov) · [msannikov03@gmail.com](mailto:msannikov03@gmail.com)
+**[sannikov.club](https://sannikov.club)** · [LinkedIn](https://linkedin.com/in/mikhailsannikov) · [Google Scholar](https://scholar.google.com/citations?user=7cfCv6wAAAAJ) · [msannikov03@gmail.com](mailto:msannikov03@gmail.com)
