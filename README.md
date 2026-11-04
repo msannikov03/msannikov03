@@ -11,7 +11,7 @@ I build robot learning systems end to end: the rig, the data, the policy, and th
 
 | | | |
 |---|---|---|
-| **[HapticWAM](https://arxiv.org/abs/2609.23888)** | submitted to ICRA 2027 · co-first author, project lead | a world-action model on a frozen Cosmos video diffusion transformer, distilled into a student policy that needs no tactile sensors at runtime; 77% mean success on three real contact-rich tasks. [code](https://github.com/Advanced-Robotic-Manipulation/HapticWAM) · [models & data](https://huggingface.co/collections/armteam/hapticwam-icra-2027-6ab234bdfe24c383b5f9fb57) |
+| **[HapticWAM](https://arxiv.org/abs/2609.23888)** | submitted to ICRA 2027 · co-first author | a world-action model on a frozen Cosmos video diffusion transformer, distilled into a student policy that needs no tactile sensors at runtime; 77% mean success on three real contact-rich tasks. [code](https://github.com/Advanced-Robotic-Manipulation/HapticWAM) · [models & data](https://huggingface.co/collections/armteam/hapticwam-icra-2027-6ab234bdfe24c383b5f9fb57) |
 | **[HapticVLA](https://arxiv.org/abs/2603.15257)** | IEEE/RSJ IROS 2026 · co-first author | SmolVLA policies fine-tuned with reward-weighted flow matching, 15 Hz on a Jetson Orin NX, 86.7% mean success on contact-rich tasks. [code](https://github.com/Advanced-Robotic-Manipulation/crab) · [dataset](https://huggingface.co/datasets/armteam/crab-manipulation-dataset) |
 | **[CloudDiffusion](https://arxiv.org/abs/2606.16048)** | IEEE SMC 2026 · co-first author | diffusion-based 3D LiDAR point-cloud scene completion on SemanticKITTI, single denoising step at 209 ms/frame. [weights](https://huggingface.co/businesslion/clouddiffusion) |
 
